@@ -1,0 +1,1189 @@
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 4vw;
+    color: #3a3a3a;
+
+}
+
+.banner {
+    background-image: linear-gradient(to right, #a5a5a5, #ffffff);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-container {
+    background-image: linear-gradient(to right,#ffffff, #a5a5a5, #ffffff);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.Toolshare {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-weight: 500;
+    text-align: center;
+    font-size: 5vw;
+    padding-left: 2%;
+    color: #000000;
+    background-image: linear-gradient(to left, #ffffff, #9e9e9e, #ffffff );
+}
+
+.content p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.3vw;
+    text-align: center;
+    border-top: 2px solid #000000;
+    padding-top: 2%;
+}
+
+.FAQ-content p {
+    margin: 5% 2% 5% 2%;
+    font-size: 1.3vw;
+    text-align: left;
+    border-top: 2px solid #000000;
+    padding-top: 2%;
+}
+
+.space {
+    border-top: 2px solid #000000;
+    padding-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: center;
+
+}
+
+.parrlx-title {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 6vw;
+    color: #353535;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 10vw;
+    width: 60%;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(40%, -50%);
+    padding-left: 3%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.parrlx2-title {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 6vw;
+    color: #353535;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 20vw;
+    width: 60%;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(40%, -50%);
+    padding-left: 3%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    color: #000000;
+}
+  
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* login and loggout link */
+.loggin_link {
+    float: right;
+}
+
+
+
+/* paralex scrolling*/
+
+.parallex1 {
+    background-image: url("images/parrallax1.JPG");
+    
+
+    height: 400px;
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.parallex2 {
+    background-image: url("images/parrallax2.JPG");
+    
+
+    height: 400px;
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.parallex3 {
+    background-image: url("images/parrallax3.JPG");
+    
+
+    height: 400px;
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.parallex4 {
+    background-image: url("images/parrallax4.JPG");
+    
+
+    height: 400px;
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.parallex5 {
+    background-image: url("images/parrallax5.JPG");
+    
+
+    height: 300px;
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+    
+    margin-bottom: 2%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+/* footer */
+footer {
+    height: 5%;
+    background-color: #363636;
+    position: relative;
+    width: 100%;
+    float: bottom;
+}
+
+
+
+footer .links a {
+    text-decoration: none;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 1.3vw;
+    margin-bottom: 0px;
+    display: inline-block;
+    float: left;
+}
+
+footer .links a:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+footer .contact {
+    float: right;
+    text-align: right;
+    color: #ffffff;
+    width: 40%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+footer .contact p {
+    float: right;
+    margin-right: 4%;
+    text-align: right;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 2px;
+    
+}
+
+/* login form*/
+
+.login-form {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 35%;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    
+}
+
+
+.login-form .header h2 {
+    color: #000000;
+    width: 98%;
+    height: 20%;
+    font-size: 2vw;
+    padding-bottom: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.input-group { 
+    margin: 4% 20% 4% 4%; 
+    padding: 0% 20% 0% 4%;
+    text-align: left;
+} 
+
+.input-group label { 
+    display: block; 
+    text-align: left; 
+    margin: 5px; 
+    font-size: 1.5vw; 
+} 
+
+.input-group input { 
+    height: 32px; 
+    width: 95%; 
+    padding: 5px 10px; 
+    font-size: 15px; 
+    border-radius: 3px; 
+    border: 1px solid gray; 
+} 
+
+.btn { 
+    cursor: pointer; 
+    padding: 12px; 
+    font-size: 1.6vw; 
+    color: white; 
+    background: #727272; 
+    border: none; 
+    border-radius: 10px; 
+    width: 40%;
+} 
+
+.login-form p {
+    float: left;
+    padding-left: 10%;
+    font-size: 1.5vw;
+}
+
+
+/* register form*/
+
+.register-form {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+    width: 35%;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    
+}
+
+
+.register-form .header h2 {
+    color: #000000;
+    width: 98%;
+    height: 20%;
+    font-size: 2vw;
+    padding-bottom: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.register-form .input-group { 
+    margin: 2% 20% 2% 4%; 
+    padding: 0% 20% 0% 4%;
+    text-align: left;
+} 
+
+.register-form .input-group label { 
+    display: block; 
+    text-align: left; 
+    margin: 5px; 
+    font-size: 1vw; 
+} 
+
+.register-form .input-group input { 
+    height: 4%; 
+    width: 130%; 
+    padding: 5px 10px; 
+    font-size: 15px; 
+    border-radius: 3px; 
+    border: 1px solid gray; 
+} 
+
+.register-form .btn { 
+    cursor: pointer; 
+    padding: 12px; 
+    font-size: 1vw; 
+    color: white; 
+    background: #727272; 
+    border: none; 
+    border-radius: 10px; 
+    width: 10vw;
+    float: right;
+    margin-top: 2%;
+} 
+
+.error { 
+
+    width: 92%;    
+    padding: 10px;  
+    border: 1px solid #a94442;  
+    color: #a94442;  
+    background: #f2dede;  
+    border-radius: 5px;  
+    text-align: left; 
+    font-size: 1.2vw;
+    margin: 0px auto;
+} 
+
+.error ul {
+    list-style: none;
+}
+
+.error p {
+    display: block;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+
+.register-form p {
+    float: left;
+    padding-left: 10%;
+    font-size: 1vw;
+}
+
+.terms {
+    width: 70%;
+    float: left;
+    font-size: 1vw;
+    margin-left: 2%;
+}
+
+.checkbtn {
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+/*update details form */
+
+.dashboard {
+    margin: 2% 0% 4% 4%;
+}
+
+.dashboard h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+}
+
+.dashboard label {
+    display: block; 
+    text-align: left; 
+    margin: 5px; 
+    font-size: 1.6vw; 
+}
+
+.dashboard input {
+    display: block;
+    height: 4%; 
+    width: 40%; 
+    padding: 5px 10px; 
+    font-size: 1.2vw; 
+    border-radius: 3px; 
+    border: 1px solid gray; 
+    margin-bottom: 15px;
+}
+
+.dashboard .btn {
+    display: block;
+    text-align: center;
+    width: 20%;
+}
+
+/* tool register form */
+
+.reg_tool_form {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+    width: 35%;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.tool_regestration {
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+    width: 35%;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    width: 50%; 
+}
+
+.image-input {
+    width: 100%;
+    text-align: left;
+}
+
+.image-input input{
+    margin-left: 8%;
+    font-size: 1.2vw;
+    margin-top: 1%;
+}
+
+.image-input label {
+    margin-left: 8%;
+    font-size: 1.6vw;
+    display:  block;
+}
+
+.reg_tool_form h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    width: 98%;
+    height: 20%;
+    font-size: 2.5vw;
+    padding-bottom: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.reg_tool_form .avalability-check {
+    text-align: left; 
+    margin-top: 2%;
+    margin-left: 8%; 
+    font-size: 1.6vw; 
+}
+
+.avalability-check input{
+    margin-right: 8%;
+    height: 20px;
+    width: 20px;
+}
+
+.reg_tool_form .input-group .btn {
+    width: 60%;
+}
+
+/* browse css */
+
+.search_frm {
+    height: 100px;
+}
+
+.search_frm p{
+    height: 100px;
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.search_frm .search-title {
+    font-family: Verdana, sans-serif;
+    size: 2vw;
+    font-weight: 800;
+    float: left;
+    display: inline;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.search_frm p label {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-size: 2vw;
+    margin-right: 3%;
+}
+
+.search_frm p input {
+    display: inline;
+    text-align: left;
+    float: left;
+    font-size: 2vw;
+    margin-right: 2%;
+}
+
+
+
+.search-btn {
+    cursor: pointer; 
+    float: left;
+    padding: 12px; 
+    font-size: 1.6vw; 
+    color: white; 
+    background: #727272; 
+    border: none; 
+    border-radius: 10px; 
+    width: 8vw;
+    margin-right: 2%;
+    
+}
+
+
+
+/* search table*/
+
+.search-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+
+.search-table th, .search-table td {
+    padding: 15px;
+}
+
+.search-table th {
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.search-table tr:nth-child(even) {
+    background-color: #9e9e9e;
+}
+.search-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* user tool table */
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+
+
+.result-table th, .search-table td {
+    padding: 15px;
+}
+
+.result-table th {
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.result-table tr:nth-child(even) {
+    background-color: #9e9e9e;
+}
+.result-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+/* edit form */
+
+.update_tool_record {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+    width: 50%;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    
+}
+
+
+.update_tool_record .header h2 {
+    color: #000000;
+    width: 98%;
+    height: 20%;
+    font-size: 2vw;
+    padding-bottom: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.update_tool_record .input-group { 
+    margin: 2% 20% 2% 4%; 
+    padding: 0% 20% 0% 4%;
+    text-align: left;
+} 
+
+.update_tool_record.input-group label { 
+    display: block; 
+    text-align: left; 
+    margin: 5px; 
+    font-size: 1vw; 
+} 
+
+.update_tool_record .input-group input { 
+    height: 4%; 
+    width: 130%; 
+    padding: 5px 10px; 
+    font-size: 15px; 
+    border-radius: 3px; 
+    border: 1px solid gray; 
+} 
+
+.update_tool_record .btn { 
+    cursor: pointer; 
+    padding: 12px; 
+    font-size: 1vw; 
+    color: white; 
+    background: #727272; 
+    border: none; 
+    border-radius: 10px; 
+    width: 10vw;
+    float: right;
+} 
+
+.update_tool_record p {
+    float: left;
+    padding-left: 10%;
+    font-size: 1vw;
+}
+
+.image_display {
+    float: center;
+    border: 2px solid #000000;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.image_display a {
+    text-decoration: none;
+    color: #1100ff;
+}
+
+.image_display a:hover {
+    color: #8808ff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.image_display img {
+    width: 100%;
+}
+
+.avalability-checkbtn {
+    margin-right: 8%;
+    height: 1.6vw;
+    width: 1.6vw;
+    text-align: left; 
+    margin-top: 4%;
+}
+
+.avalability-label {
+    margin-right: 2%;
+    margin-top: 4%;
+    font-size: 1.6vw;
+}
+
+
+/* add/change image form*/
+
+.update_img_form {
+    height: 100px;
+}
+
+.update_img_form p {
+    height: 100px;
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.update_img_form .search-title {
+    font-family: Verdana, sans-serif;
+    size: 2vw;
+    font-weight: 800;
+    float: left;
+    display: inline;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.update_img_form p label {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-size: 2vw;
+    margin-right: 3%;
+}
+
+.update_img_form p input {
+    display: inline;
+    text-align: left;
+    float: left;
+    font-size: 2vw;
+    margin-right: 2%;
+}
+
+
+
+.search-btn {
+    cursor: pointer; 
+    float: left;
+    padding: 12px; 
+    font-size: 1.6vw; 
+    color: white; 
+    background: #727272; 
+    border: none; 
+    border-radius: 10px; 
+    width: 8vw;
+    margin-right: 2%;
+    
+}
+
+
+/* change image css */
+
+.search_frm {
+    height: 100px;
+}
+
+.search_frm p{
+    height: 100px;
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.search_frm .search-title {
+    font-family: Verdana, sans-serif;
+    size: 2vw;
+    font-weight: 800;
+    float: left;
+    display: inline;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.search_frm p label {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-size: 2vw;
+    margin-right: 3%;
+}
+
+.search_frm p input {
+    display: inline;
+    text-align: left;
+    float: left;
+    font-size: 2vw;
+    margin-right: 2%;
+}
+
+
+
+.search-btn {
+    cursor: pointer; 
+    float: left;
+    padding: 12px; 
+    font-size: 1.6vw; 
+    color: white; 
+    background: #727272; 
+    border: none; 
+    border-radius: 10px; 
+    width: 8vw;
+    margin-right: 2%;
+    
+}
+
+/* veiw record css*/
+
+.display_record {
+    margin-top: 2%;
+    margin-bottom: 25%;
+    padding-bottom: 5%;
+    border-top: 2px solid #000000;
+    padding-top: 2%;    
+    display: block;
+    height: 100%;
+}
+
+.display_record label {
+    font-size: 1.8vw;
+    width: 100%;
+    font-weight: 800;
+    text-align: left;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.display_record .record-info {
+    float: left;
+    width: 100%;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 1.4vw;
+}
+.image-display {
+    max-width: 96%;
+    padding: 2px;
+    margin-left: 2%;
+    margin-top: 8%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+
+
+
+/* css for when the screen size is less than 800px */
+@media only screen and (max-width: 1000px) {
+    .content p {
+        font-size: 3vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .FAQ-content p {
+        font-size: 3vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .parallex1 {
+        height: 200px;
+    }    
+
+    .parallex2 {
+        height: 200px;
+    }
+
+    .parallex3 {
+        height: 200px;
+    }
+
+    .parallex4 {
+        height: 200px;
+    }
+
+    .parallex5 {
+        height: 150px;
+    }
+
+    footer .links a {
+        font-size: 4vw;
+    }
+
+    footer .contact {
+        width: 40%;
+    }
+
+    .login-form {
+        width: 60%;
+    }
+
+    .login-form .header h2 {
+        font-size: 4vw;
+    }
+
+    .input-group label {
+        font-size: 3vw;
+    }
+
+    .input-group input {
+        height: 5%;
+        font-size: 2.5vw;
+    }
+
+    .btn {
+        font-size: 2.5vw;
+        width: 60%;
+    }
+
+    .login-form p {
+        font-size: 3vw;
+    }
+
+    .register-form {
+        width: 85%;
+    }
+
+    .register-form .header h2 {
+        font-size: 4vw;
+    }
+    
+    .register-form .input-group label { 
+        font-size: 3vw; 
+    } 
+    
+    .register-form .btn { 
+        cursor: pointer; 
+        padding: 12px; 
+        font-size: 2.5vw; 
+        width: 20vw;
+    }
+    
+    .error {
+        width: 88%;
+        margin: 4% auto 0% auto;
+        font-size: 2.5vw;
+    }
+
+    .register-form p {
+        font-size: 3vw;
+    }
+
+    .terms {
+        font-size: 2.5vw;
+    }
+
+    .dashboard h1 {
+        font-size: 4vw;
+    }
+
+    .dashboard label {
+        font-size: 3vw;
+        width: 60%;
+    }
+
+    .dashboard input {
+        font-size: 3vw;
+    }
+
+    .tool_regestration {
+        width: 70%;
+    }
+
+    .reg_tool_form h1 {
+        font-size: 4vw;
+    }
+
+    .reg_tool_form .avalability-check {
+        font-size: 3vw;
+    }
+
+    .image-input input {
+        font-size: 2.5vw;
+    }
+
+    .image-input label {
+        font-size: 3vw;
+    }
+
+    .search_frm {
+        height: 12.6vw;
+    }
+
+    .search_frm p {
+        height: 12.6vw;
+    }
+
+    .search_frm .search-title {
+        font-size: 2.5vw;
+    }
+    .search_frm p label {
+        font-size: 2.5vw;
+    }
+
+    .search-btn {
+        font-size: 2.5vw;
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .update_tool_record {
+        width: 70%;
+    }
+
+    .update_tool_record .header h2 {
+        font-size: 5vw;
+    }
+
+    .update_tool_record .input-group label {
+        font-size: 3.5vw;
+    }
+
+    .update_tool_record .input-group {
+        font-size: 3.5vw;
+    }
+
+    .avalability-checkbtn {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .avalability-label {
+        font-size: 3vw;
+    }
+
+    .update_tool_record .btn {
+        width: 50%;
+        font-size: 3vw;
+    }
+
+    .update_img_form {
+        height: 50px;
+
+    }
+
+    
+    .update_img_form .search-title {
+        font-size: 5vw;
+    }
+
+    .display_record label {
+        font-size: 4vw;
+    }
+
+    .display_record .record-info {
+        font-size: 3vw;
+    }
+
+    .image-display {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
